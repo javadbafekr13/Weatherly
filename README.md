@@ -1,16 +1,69 @@
-# React + Vite
+# 🌤️ Weatherly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built with React that lets users search for a city and view its current weather conditions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search for a city by name
+- Display current temperature and weather conditions
+- Show weather descriptions based on weather codes
+- Handle loading states and unsuccessful searches
+- Responsive, user-friendly interface
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** — building the user interface
+- **JavaScript** — application logic and state management
+- **CSS** — styling and layout
+- **Vite** — development server and build tool
+- **Open-Meteo API** — retrieving location and weather data
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run Weatherly locally:
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/javadbafekr13/Weatherly.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Weatherly
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## 📚 What I Learned
+
+I built Weatherly as a learning project while developing my React skills. Through this project, I practiced:
+
+- React components and props
+- State management with `useState`
+- Handling asynchronous API requests
+- Displaying loading and error states
+- Styling a React application with CSS
+
+## 👨‍💻 Author
+
+**Javad Bafekr**
+
+- GitHub: [@javadbafekr13](https://github.com/javadbafekr13)
+
+---
+
+_Built as part of my journey learning React and frontend development._
